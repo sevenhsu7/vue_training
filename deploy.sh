@@ -1,1 +1,1 @@
- 
+git push -f git@github.com:sevenhsu7/vue_training.git master:gh-pages 
