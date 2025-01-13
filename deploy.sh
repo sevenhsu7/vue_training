@@ -9,8 +9,8 @@ npm run build
 # 进入构建输出目录
 cd dist
 
-# 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
+# 删除之前的 Git 仓库以确保清洁部署
+rm -rf .git
 
 git init
 git add -A
